@@ -54,6 +54,7 @@ export default {
             this.addBlockCustomAttibutes(this.jElement, "selectedBlocktypeuid", selectedGroup.id);
             this.addBlockCustomAttibutes(this.jElement, "selectedBlocktypename", selectedGroup.name.toLowerCase());
             this.addBlockCustomAttibutes(this.jElement, "selectedcontenttype", selectedGroup.contenttype.toLowerCase())
+            this.addBlockCustomAttibutes(this.jElement, "selectedlocale", selectedGroup.locale.toLowerCase())
 
             this.applyChanges();
         }, 0);
