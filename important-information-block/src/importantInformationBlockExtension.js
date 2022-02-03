@@ -38,7 +38,7 @@ export function createImportantInformationBlockExtension(stripoConfig, stripoApi
         }
 
         console.log(blockConfiguration);
-        element[0].querySelector('.custom-block-text > p').innerHTML = blockConfiguration.groups[0].placeholder;
+        element[0].querySelector('.custom-block-text').innerHTML = blockConfiguration.groups[0].multilinecontent;
     }
 
     function addBlockCustomAttibutes(element, key, value) {
